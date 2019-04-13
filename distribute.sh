@@ -22,7 +22,7 @@ if [ ! -z "$TRAVIS_TAG" ]; then
         --push \
         --all \
         --from "homeassistant/{arch}-base" \
-        --author "Daniel Welch <dwelch2102@gmail.com>" \
+        --author "Thomas Wiebe <code@heimblick.net>" \
         --doc-url "${GITHUB_URL}" \
         --login "${DOCKER_USERNAME}" \
         --password "${DOCKER_PASSWORD}" \
@@ -40,7 +40,7 @@ else
         --push \
         --all \
         --from "homeassistant/{arch}-base" \
-        --author "Daniel Welch <dwelch2102@gmail.com>" \
+        --author "Thomas Wiebe <code@heimblick.net>" \
         --doc-url "${GITHUB_URL}" \
         --login "${DOCKER_USERNAME}" \
         --password "${DOCKER_PASSWORD}" \
@@ -56,7 +56,7 @@ else
         --push \
         --all \
         --from "homeassistant/{arch}-base" \
-        --author "Daniel Welch <dwelch2102@gmail.com>" \
+        --author "Thomas Wiebe <code@heimblick.net>" \
         --doc-url "${GITHUB_URL}" \
         --login "${DOCKER_USERNAME}" \
         --password "${DOCKER_PASSWORD}" \
